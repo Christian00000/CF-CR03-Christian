@@ -42,7 +42,6 @@ nav ul {
       -ms-flex-pack: start;
           justify-content: start;
   font-size: 30px;
-  color: #fff;
   padding: 10px;
   margin: auto;
 }
@@ -51,9 +50,197 @@ nav ul li {
   padding-left: 10px;
 }
 
+nav ul a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .mainbackground {
-  background-image: url "/img/traffic.jpg";
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center;
+  background-size: 100%;
+  background-image: url("/img/traffic.jpg");
+  height: 970px;
+  padding-top: 1px;
+}
+
+.mainheadline {
+  color: #ffffff;
+  padding-left: 20px;
+  font-size: 60px;
+}
+
+.mainframe {
+  background-color: rgba(209, 208, 201, 0.8);
+  margin: 0px 50px;
+  height: 890px;
+}
+
+.mainframe h1 {
+  text-align: center;
+  font-size: 60px;
+  padding-top: 35px;
+}
+
+.input, .input1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 20px 180px;
+}
+
+.input p {
+  margin: auto;
+  font-size: 25px;
+}
+
+.input1 p {
+  margin: auto;
+  font-size: 25px;
+}
+
+.inputname {
+  border: solid 2px red;
+}
+
+.inputage {
+  border: solid 2px red;
+}
+
+.inputcountry {
+  border: solid 2px red;
+}
+
+.inputhp {
+  border: solid 2px red;
+}
+
+.inputbtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+button {
+  margin: 20px;
+  height: 54px;
+  width: 310px;
+  font-size: 45px;
+  color: #fff;
+  border-radius: 15px;
+  background-color: green;
+}
+
+.name, .age, .hp {
+  height: 70px;
+  width: 300px;
+}
+
+.country {
+  height: 76px;
+  width: 307px;
+}
+
+.result {
+  padding-top: 55px;
+  margin: auto;
+  color: green;
+}
+
+.midbanner {
+  height: 130px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+  padding-background-color: #cecece;
+}
+
+.colums {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+span {
+  font-weight: bold;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 25px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #080808;
+}
+
+footer ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  font-size: 30px;
+}
+
+footer ul a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.signature {
+  color: #ffffff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.downlogo {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 /*# sourceMappingURL=index.css.map */

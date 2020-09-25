@@ -14,49 +14,69 @@
     <nav>
         <ul>
 
-            <li >Home</li>
-            <li>Team</li>
+            <a href="index.html"><li>Home</li></a>
+			<a href="team.html" ><li>Team</li></a>
 
         </ul>
     </nav>
     <main>
-        <div  class="mainbackground"  background-image= "img/traffic.jpg" alt="highway" >
+        <div class="mainbackground" >
             <h1 class="mainheadline">Car Insurance</h1>
             <div class="mainframe">
                 <h1>Great coverage begins <br>
                     with a custom quote </h1>
                 <div class="input">
-                    <p>Your name:</p>
-                    <input id="name" type="text" placeholder="Your name">
-                    <p>Age:</p>
-                    <input id="age" type="text" placeholder="Your age">
+
+                   <div class="inputname">
+                        <p>Your Name:</p>
+                        <input class="name" id="name" type="text" placeholder="Your name" >
+                    </div>
+
+                    <div class="inputage">
+                        <p>Age:</p>
+                        <input class="age" id="age" type="number" placeholder="Your age">
+                    </div>
+
                 </div>
-                <div class="input">
-                    <p>Country:</p>                    
-                        <select id="country">
+
+                <div class="input1">
+                    <div class="inputcountry">
+                        <p>Country:</p>                    
+                        <select class="country" id="country">
                             <option value="Austria">Austria</option>
                             <option value="Hungary">Hungary</option>
                             <option value="Greece">Greece</option>
                         </select>
+                    </div>
 
-                    <p>Horsepower</p>
-                    <input id="hp" type="text" placeholder="HP">
+                    <div class="inputhp">
+                        <p>Horsepower</p>
+                        <input class="hp" id="hp" type="number" placeholder="HP">
+                    </div>
+                
                 </div>
-                <div>
-                    <button id="button" type="submit">Calculate</button>
-                    <h1 id="output" aria-placeholder="Your individual calculation"></h1>
+                <div class="inputbtn">
+                    <div id="button">
+                        <button  type="submit">Calculate</button>
+                        
+                    </div>
+                    
+                </div>
+                <div class="result">
+                    <h1 id="output"></h1>
                 </div>
 
             </div>
         </div>
 
-        <div class="midbanner">
-            <h1>Un-complicating car coverage</h1>
-            <p>Understanding your coverage options shouldn´t be so hard. <br>
+        <div>
+            <div class="midbanner">
+                <h1>Un-complicating car coverage</h1>
+                <p>Understanding your coverage options shouldn´t be so hard. <br>
                 We´ll guide you through availible coverage types, <br>
                 starting with who and what is covered. 
-            </p>
-
+                </p>
+            </div>
         </div>
 
         <div class="colums">
@@ -92,12 +112,12 @@
     </main>
     <footer>
         <ul>
-            <li>Home</li>
-            <li>Team</li>
+            <a href="index.html"><li>Home</li></a>
+			<a href="team.html" ><li>Team</li></a>
         </ul>
 
-        <img src="/img/logo.png" alt="cflogo">
-        <p>Christian Frömmer - CodeFactory 2020</p>
+        <img class="downlogo" src="/img/logo.png" alt="cflogo">
+        <p class="signature">Christian Frömmer - CodeFactory 2020</p>
 
     </footer>
  
