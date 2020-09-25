@@ -3,13 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/css/index.css">
     <title>CF Insurance Group</title>
 </head>
 <body>
-    
+    <header>
+        <img src="/img/logo.png" alt="cflogo">
+        <img src="/img/banner.png" alt="cfbanner">
+    </header>
+    <nav>
+        <ul>
 
+            <li >Home</li>
+            <li>Team</li>
 
-    <script src="index.js"></script>
+        </ul>
+    </nav>
+    <main>
+        <div class="mainbackground">
+            <h1>Car Insurance</h1>
+            <div class="mainframe">
+                <h1>Great coverage begins <br>
+                    with a custom quote </h1>
+                <div class="input">
+                    <p>Your name:</p>
+                    <input id="name" type="text" placeholder="Your name">
+                    <p>Age:</p>
+                    <input id="age" type="text" placeholder="Your age">
+                </div>
+                <div class="input">
+                    <p>Country:</p>                    
+                        <select id="country">
+                            <option value="Austria">Austria</option>
+                            <option value="Hungary">Hungary</option>
+                            <option value="Greece">Greece</option>
+                        </select>
+
+                    <p>Horsepower</p>
+                    <input id="hp" type="text" placeholder="HP">
+                </div>
+                <div>
+                    <button id="button" type="submit">Calculate</button>
+                    <h1 id="output" aria-placeholder="Your individual calculation"></h1>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="midbanner">
+            <h1>Un-complicating car coverage</h1>
+            <p>Understanding your coverage options shouldn´t be so hard. <br>
+                We´ll guide you through availible coverage types, <br>
+                starting with who and what is covered. 
+            </p>
+
+        </div>
+
+        <div class="colums">
+            <div class="col">
+                <h1>What comes standard</h1>
+                <p>The coverage you need</p>
+                <ul>
+                    <li>Bodily Injury Liability</li>
+                    <li>Property Damage</li>
+                    <li>Medical Payments</li>
+                </ul>
+                <p><span>Benefits:</span> <br>
+                    12-month rate guarantee |  <!--how to straight /-->
+                    24/7 customer service | 
+                    Lifetime Repair Guarantee 
+                </p>
+            </div>
+            <div class="col">
+                <h1>Add-om protecion & coverage</h1>
+                <p>For more peace in mind</p>
+                <ul>
+                    <li>Better Car Replacement</li>
+                    <li>Towing & Labor</li>
+                    <li>Rental Car Coverage</li>
+                </ul>
+                <p><span>Earned Benefits:</span> <br>
+                    Accident Forgiveness 1 |  <!--how to straight / and up the number-->
+                    New Car Replacement™                      
+                </p>
+            </div>
+       </div>
+
+    </main>
+    <footer>
+        <ul>
+            <li>Home</li>
+            <li>Team</li>
+        </ul>
+
+        <img src="/img/logo.png" alt="cflogo">
+        <p>Christian Frömmer - CodeFactory 2020</p>
+
+    </footer>
+ 
+
+    <script src="/js/index.js"></script>
 </body>
 </html>
