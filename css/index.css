@@ -1,1 +1,59 @@
-/* No CSS *//*# sourceMappingURL=index.css.map */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 25px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #fff3f3;
+}
+
+.logotop {
+  padding-left: 20px;
+  width: auto;
+  height: auto;
+}
+
+.bannertop {
+  padding-right: 20px;
+  width: auto;
+  height: auto;
+}
+
+nav {
+  background-color: #8e1616;
+}
+
+nav ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  font-size: 30px;
+  color: #fff;
+  padding: 10px;
+  margin: auto;
+}
+
+nav ul li {
+  padding-left: 10px;
+}
+
+.mainbackground {
+  background-image: url "/img/traffic.jpg";
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*# sourceMappingURL=index.css.map */
