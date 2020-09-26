@@ -1,4 +1,4 @@
-function a (){
+function calculateInsurance (){
     var name = document.getElementById("name").value;
     var age = document.getElementById("age").value;
     var country = document.getElementById("country").value;
@@ -24,5 +24,5 @@ function a (){
      For Greece: insurance = horse_power x 150 / (age+3)  + 50; */
 
 }
-document.getElementById("button").addEventListener("click", a, false)
+document.getElementById("button").addEventListener("click", calculateInsurance, false)
     

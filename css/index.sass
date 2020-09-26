@@ -43,11 +43,10 @@ nav
 
 .mainbackground
      
-    background-repeat: no-repeat
-    background-position: center    
-    background-size: 100%
+    background-repeat: no-repeat  
+    background-size: cover
     background-image: url("/img/traffic.jpg")
-    height: 970px
+    height: 945px
     padding-top: 1px
 
 .mainheadline
@@ -58,18 +57,19 @@ nav
 
     
 .mainframe
-    background-color: rgba(209,208,201,0.8)
+    background-color: rgba(234,234,234,0.8)
     margin: 0px 50px    
-    height: 890px
+    height: 840px
+    position: relative
     h1 
         text-align: center
         font-size: 60px
-        padding-top: 35px
+        padding-top: 50px
 
 .input, .input1
     display: flex
     justify-content: space-around  
-    padding: 20px 180px
+    padding: 10px 80px
 	
 .input
     p 
@@ -81,24 +81,12 @@ nav
         margin: auto
         font-size: 25px 
     
-
-
-.inputname
-    border: solid 2px red
-
-.inputage
-    border: solid 2px red
-
-.inputcountry
-    border: solid 2px red
-
-.inputhp
-    border: solid 2px red
     
 
 .inputbtn
     display: flex
-    justify-content: center 
+    justify-content: center
+    padding-top: 15px 
 
 button
     margin: 20px
@@ -110,58 +98,117 @@ button
     background-color: green  
 
 .name, .age, .hp, 
-    height: 70px
+    height: 50px
     width: 300px
 
 .country
-    height: 76px
+    height: 56px
     width: 307px
 
 .result
-    padding-top: 55px
-    margin: auto
+    padding-top: 20px
+    
     color: green
 
-.midbanner   
-	height: 130px
-	text-align: center
-	display: flex
-	flex-direction: column	
-	justify-content: center
-	padding: 20px
+output
+    h1 
+        margin: 0
+
+.midbanner
+    display: flex
+    justify-content: center
+    height: 140px
+    align-items: center
+    flex-direction: column
     background-color: #cecece
+    padding: 30px 0 20px
+    color: rgb(69,69,69)
+    p 
+        font-size: 20px
+        margin: 0px
+        text-align: center
+    h1 
+        margin: 0px 
 
 .colums
     display: flex
     justify-content: space-around
     flex-direction: row
+    margin: 100px 0
+    
 
-.col
-    display: flex
-    flex-direction: column
-    text-align: center
+.col   
+	width: 400px
+	height: 380px
+	display: flex
+	flex-direction: column
+	justify-content: space-between	
+	box-shadow: 0px 0px 10px black
+
+.colhead
+    font-size: 13px
+
+.coltop
+    margin-top: -35px
+
+.colmid
+    list-style-image: url("/img/green-check-icon.png")
+    font-size: 15px
+    margin-bottom: 0
+    li
+        padding: 15px
+        font-size: 18px
+
+
+
 
 span 
     font-weight: bold
 
 footer
     display: flex
-    padding: 25px
-    flex-direction: row
+    flex-direction: column
+    align-items: center
+    width: 100%
+    height: 200px
+    
     background-color: #080808 
     ul 
         list-style-type: none
         display: flex
-        flex-flow: row
-        justify-content: start
+        align-items: center
+        justify-content: flex-start
         font-size: 30px
         a
             text-decoration: none
             color: #fff
+            li 
+                padding-left: 10px
+
+.footleft
+    align-self: flex-start
 
 .signature
-        color: #ffffff
-        justify-content: center
-        align-items: flex-end 
+    color: #ffffff
+    padding-top: 15px
 .downlogo
-    justify-content: flex-end
+    padding-left: 1000px
+
+
+@media screen and (max-width: 780px)
+    .bannertop
+        display: none
+      
+    
+       
+    .colums
+        flex-direction: column
+        padding-left: 100px
+        .col
+            width: 80%
+            height: 320px
+            margin-top: 30px
+    .coltop
+        margin-top: -20px
+    
+      
