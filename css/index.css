@@ -184,15 +184,9 @@ output h1 {
 }
 
 .col {
-  width: 400px;
+  width: 450px;
   height: 380px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  padding-left: 30px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -202,10 +196,11 @@ output h1 {
 
 .colhead {
   font-size: 13px;
+  color: #597db9;
 }
 
 .coltop {
-  margin-top: -35px;
+  margin-top: -25px;
 }
 
 .colmid {
@@ -289,7 +284,7 @@ footer ul a li {
   }
   .colums .col {
     width: 80%;
-    height: 320px;
+    height: 380px;
     margin-top: 30px;
   }
   .coltop {
